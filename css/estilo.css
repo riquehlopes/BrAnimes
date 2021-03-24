@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+
+}
+
+header{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    width: 250px;
+}
+
+#logo img{
+    width: 100%;
+}
+
+#direita{
+    flex-grow: 1;
+    text-align: center;
+}
+
+#direita p{
+    letter-spacing: 5px;
+    font-size: 14pt;
+    font-style: italic;
+    font-weight: bold;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+header nav a:hover{
+    background-color: #ffff00;
+    color: #000000;
+}
